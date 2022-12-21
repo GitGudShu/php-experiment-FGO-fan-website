@@ -1,0 +1,120 @@
+.col-md-4 {
+	margin-top: 30px;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #212529;
+	background-image: url(https://wallpapers.com/images/hd/fate-grand-order-genesis-2nks7era2soryk95.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.card {
+	height: 100%;
+	border-color: #584578;
+	border-width: thick;
+	background-color: #EBE8FC;
+}
+
+.card .btn {
+	z-index: 2;
+	position: relative;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+.navbar {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+/*
+header top
+*/
+.topbar {
+	background-color: #212529;
+	padding: 0;
+}
+
+.topbar .container .row {
+	margin: -7px;
+	padding: 0;
+}
+
+.topbar .container .row .col-md-12 {
+	padding: 0;
+}
+
+.topbar p {
+	margin: 0;
+	display: inline-block;
+	font-size: 13px;
+	color: #f1f6ff;
+}
+
+.topbar p>i {
+	margin-right: 5px;
+}
+
+.topbar p:last-child {
+	text-align: right;
+}
+
+header .navbar {
+	margin-bottom: 0;
+}
+
+a {
+	color: #0a0a0a;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.bg-image-full {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.mx-background-top-linear {
+	background: -webkit-linear-gradient(45deg, #584578 20%, #1b1e21 48%);
+	background: -webkit-linear-gradient(left, #584578 20%, #1b1e21 48%);
+	background: linear-gradient(45deg, #584578 20%, #1b1e21 48%);
+}
+
+#sticky-footer {
+	background-color: #584578;
+}
+
+.index {
+	background-image: url(https://cdn.donmai.us/original/80/a0/__mash_kyrielight_fate_and_2_more_drawn_by_thkani__80a020a501772e93c871affcd258cba0.png);
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
