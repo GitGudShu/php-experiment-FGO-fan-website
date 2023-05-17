@@ -13,7 +13,6 @@ To run the website locally, you'll need to have PHP and a MySQL server installed
 Once you have the necessary software installed, you can clone this repository and set up the database by importing the included SQL file:
 
 ```bash
-Copy code
 git clone https://github.com/your-username/fgo-servant-website.git
 cd fgo-servant-website
 mysql -u username -p database_name < database.sql
@@ -22,7 +21,6 @@ mysql -u username -p database_name < database.sql
 You'll also need to configure the database connection in config.php:
 
 ```php
-Copy code
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'database_name');
 define('DB_USER', 'username');
